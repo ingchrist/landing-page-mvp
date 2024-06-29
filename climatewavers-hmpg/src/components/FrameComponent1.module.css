@@ -1,0 +1,98 @@
+.noah {
+  display: inline-block;
+  min-width: 67px;
+}
+.hr,
+.noah,
+.noahhweb3,
+.tornadoAlertUser {
+  position: relative;
+  line-height: 32px;
+}
+.hr,
+.tornadoAlertUser {
+  display: inline-block;
+  min-width: 10px;
+}
+.hr {
+  min-width: 55px;
+}
+.tornadoAlertHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.moreIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  object-fit: contain;
+  min-height: 32px;
+}
+.tornadoAlertContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.tornadowatchAlert {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  text-align: left;
+}
+.tornadoAlertDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  height: 374px;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.tornadoAlertDetailsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 450px) {
+  .hr,
+  .noah,
+  .noahhweb3,
+  .tornadoAlertUser {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .tornadoAlertContent {
+    flex-wrap: wrap;
+  }
+  .tornadowatchAlert {
+    font-size: var(--font-size-lgi);
+    line-height: 32px;
+  }
+}

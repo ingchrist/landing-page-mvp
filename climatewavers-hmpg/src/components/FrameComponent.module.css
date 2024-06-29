@@ -1,0 +1,57 @@
+.iconContainerChild {
+  height: 48px;
+  width: 10px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--sec-2);
+  display: none;
+}
+.peopleIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  min-height: 40px;
+}
+.community {
+  position: relative;
+  line-height: 40px;
+}
+.iconContainer,
+.innerIconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.innerIconContainer {
+  flex: 1;
+  padding: 0 var(--padding-mini) 0 0;
+  gap: var(--gap-base);
+}
+.iconContainer {
+  align-self: stretch;
+  padding: var(--padding-xl) var(--padding-58xl);
+  gap: var(--gap-48xl-5);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 825px) {
+  .community {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .community {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .iconContainer {
+    gap: var(--gap-15xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
