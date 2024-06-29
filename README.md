@@ -23,16 +23,6 @@ Welcome to the repository for the MVP landing page of Climate Wavers. This proje
     cd landing-page-mvp
     ```
 
-2. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-    ```bash
-    npm start
-    ```
-
 ## Branching Workflow
 To facilitate collaborative development, we follow a feature-branch workflow.
 
